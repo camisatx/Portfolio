@@ -1,6 +1,6 @@
 # Portfolio
 
-Single page website for my personal portfolio located at <a href="portfolio.joshschertz.com" target="_blank">portfolio.joshschertz.com</a>.
+Single page website for my personal portfolio located at [portfolio.joshschertz.com](portfolio.joshschertz.com).
 
 [![AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](http://opensource.org/licenses/AGPL-3.0)
 
