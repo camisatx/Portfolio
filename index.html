@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <!-- The scrollable area-->
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div id="home" class="landing-image">
+      <nav class="navbar navbar-inverse navbar-fixed-top" data-offset-top="100px">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#website-navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">JS</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="website-navbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://github.com/camisatx" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/joshuaschertz" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <div class="landing-text">
+        <h1>Josh Schertz</h1>
+        <h1><small>Programmer, Dreamer, Optimist</small></h1>
+      </div>
+    </div>
+
+    <div id="about" class="container-fluid">
+      <h2 class="text-center section-header">About</h2>
+      <p class="paragraph-space">I am passionate about building disruptive technologies to help humanity as a whole. I am a programmer first, but also enjoy web design, system architectures, computer hardware and data structures. I believe that technology can be used to solve (or at least aid) many of the difficult problems we face today and in the future.</p>
+      <p class="paragraph-space">As a autodidact of programming, I focus on the real world applications of the techniques I know. I believe heavily in the importance of systematic best practices for all code, thus I follow PEP8 standards (Python), heavily rely on Git as my VCS and follow the TDD process when developing code (my unit test just confirmed this ;) ).</p>
+      <p>I would rather slowly build solid code than quickly make messy code. Ultimately, I hate shitty code. Code is art, so make it beautiful!</p>
+    </div>
+
+    <div id="projects" class="container-fluid text-center">
+      <h2 class="section-header">Projects</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-lg-3">
+          <div class="thumbnail">
+            <img src="https://source.unsplash.com/5mZ_M06Fc9g/500x330" class="img-responsive" style="width:100%" alt="Image">
+            <p style="padding-top: 10px"><strong>Algorithmic Trading System</strong></p>
+            <p>Automatically trade stocks based on quantitative signals</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-3">
+          <div class="thumbnail">
+            <a href="https://github.com/camisatx/pySecMaster" target="_blank"><img src="https://source.unsplash.com/rJzKWkct1gs/500x330" class="img-responsive" style="width:100%" alt="Image"></a>
+            <p style="padding-top: 10px"><strong>pySecMaster</strong></p>
+            <p>Automated framework to store and maintain financial data</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-3">
+          <div class="thumbnail">
+            <img src="https://source.unsplash.com/lfaS0_iAW1A/500x330" class="img-responsive" style="width:100%" alt="Image">
+            <p style="padding-top: 10px"><strong>Twitter Streamer and Scraper</strong></p>
+            <p>Monitor and extract live and prior tweets based on a topic</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-3">
+          <div class="thumbnail">
+            <img src="https://source.unsplash.com/4jlc84Z8U0M/500x330" class="img-responsive" style="width:100%" alt="Image">
+            <p style="padding-top: 10px"><strong>Seeking Alpha Scraper</strong></p>
+            <p>Retrieve relevant articles from specified companies</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-3">
+          <div class="thumbnail">
+            <img src="https://source.unsplash.com/ISL7czxIP-k/500x330" class="img-responsive" style="width:100%" alt="Image">
+            <p style="padding-top: 10px"><strong>Web Development</strong></p>
+            <p>Build and launch custom websites</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="container-fluid text-center">
+      <h2 class="section-header">Contact</h2>
+      <ul class="list-inline">
+        <li><a href="https://joshschertz.com/" class="btn btn-default" role="button" target="_blank"><span class="visible-xs">JS</span><span class="hidden-xs">Website</span></a></li>
+        <li><a href="https://github.com/camisatx" class="btn btn-default" role="button" target="_blank"><i class="fa fa-github fa-lg"></i><span class="hidden-xs"> GitHub</span></a></li>
+        <li><a href="https://www.linkedin.com/in/joshuaschertz" class="btn btn-default" role="button" target="_blank"><i class="fa fa-linkedin fa-lg"></i><span class="hidden-xs"> LinkedIn</span></a></li>
+      </ul>
+    </div>
+
+    <div id="footer" class="container-fluid text-center">
+        <nav class="nav nav-inline pull-left">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+        <p class="pull-right">© Josh Schertz 2016</p>
+    </div>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
