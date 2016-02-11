@@ -11,6 +11,7 @@ The website uses:
   - Bootstrap for CSS and JS framework
   - Font Awesome for icons
   - jQuery for landing image height and width sizing
+  - Luis Almeeida's [unveil.js](https://github.com/luis-almeida/unveil) script for delayed image loading
 
 Landing image and text sizing uses responsive breakpoints.
 
